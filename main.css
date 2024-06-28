@@ -1,0 +1,440 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ /* .rectangle{
+  background-color: blue;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  left: 200px;
+  top: 200px;
+  
+}
+
+.red-circle{
+  background-color: brown;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+} */
+
+
+   
+
+.navbar{
+background-color:lightseagreen;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+font-family: 'Courier New', Courier, monospace;
+z-index: 10;
+}
+.parent-container{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.nav-section{
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.toggle-button{
+  background-color: aliceblue;
+  border: transparent;
+  font-size:2rem;
+  /* color: b; */
+  cursor: pointer;
+}
+.nav-links{
+  height: 0;
+  overflow: hidden;
+   list-style: none;
+   text-decoration: none;
+    list-style: none;
+}
+.show-links{
+  height:204
+}
+h2{
+  text-transform: uppercase;
+  color:white;
+}
+.nav-link{
+padding: 1rem 2rem;
+display: block;
+color:white;
+text-decoration: none;
+text-transform: capitalize;
+cursor: pointer;
+
+
+}
+
+@media screen and (min-width:662px){
+  .toggle-button{
+    display: none;
+  }
+  .parent-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+     
+  }
+  .nav-links{
+    display: flex;
+  height: auto;
+  }
+
+}
+.video-center{
+  width: 100%;
+  max-width:1150px ;
+  margin: 0 auto;
+}
+.sections{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /* background-color: darkgray; */
+
+}
+.section-title{
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 2rem;;
+}
+h1 span {
+  color: lightseagreen;
+}
+.tour{
+  position: relative;
+}
+.tour-img{
+  height: 180px;
+  width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  z-index: 2;
+  
+}
+
+.tour-date{
+  position: absolute;
+  right: 6.9rem;
+  bottom: 0.2rem;
+  margin-bottom: 0;
+color: white;
+  text-transform: capitalize;
+  background-color: rgb(0, 0, 0);
+}
+.tour-guide{
+  background-color: rgb(220, 231, 231);
+  margin-bottom: 2rem;
+  z-index: 1;
+}
+
+.tour-title{
+  padding: 1rem 2rem;
+}
+p{
+  margin-right: auto;
+  margin-left: auto;
+max-width: 25rem;
+}
+.tour-name{
+  padding-bottom: 2.3rem;
+  color: lightseagreen;
+}
+.icon-tours{
+  display: flex;
+  justify-content: space-around;
+}
+.section-center{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.featured-center{
+  text-align: center;
+}
+
+@media screen and (min-width:720px){
+  .section-center{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+  .tour-guide{
+    flex: 0 0 calc(50% - 1rem);
+  }
+  
+}
+@media screen and (min-width:1170px){
+  
+  .tour-guide{
+     flex: 0 0 calc(33.333% - 1rem);
+  }
+}
+/* .services{
+  background-color: brown;
+
+
+.section-title{
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+span{
+  color: aqua;
+  margin-left: 1rem;
+
+}
+.services-center{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+}
+.service-section {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+  
+}
+.icon{
+  display: inline-block;
+  margin-bottom: 2em;
+}
+.service-para{
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon{
+  color: darkgray;
+  background-color: aqua;
+  padding: 0.35rem;
+}
+@media screen and (min-width:576px) {
+  .service-center{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .service{
+    flex: 0 0 calc(50% - 1rem);
+    margin-bottom: 1rem;
+  }
+} */
+
+/* div{
+  min-height: 100vh;
+  width: 100%;
+  border: 2px solid red;
+}
+
+
+@media screen and (min-width:996px) {
+  
+  .service{
+    flex: 0 0 calc(33.333% - 1rem);
+  }
+}
+
+@media screen and (min-width:1170px) {
+  
+  .service{
+  display: flex;
+  text-align: left;
+  }
+  .icon{
+    align-self: start;
+    margin-top: 2rem;
+  }
+  .service-info{
+    margin-left: 1rem;
+  }
+  .service-title{
+    margin-top: 2rem 0;
+  }
+  .service-para{
+    padding-bottom: 2rem;
+  }
+}
+
+.header{
+  background-color:aqua;
+}
+.form-info{
+  display: flex;
+  max-width: 20rem;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.hero{
+  min-height: 100vh;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-banner{
+  text-align: center;
+  padding: 0 2rem;
+  color: aliceblue;
+}
+.hero-banner h1{
+text-transform: capitalize;
+}
+p{
+  max-width: 35rem;
+}
+
+@media screen and (min-width:780px){
+  .hero{
+    background-image: linear-gradient(rgba(0,25,90,0.2),rgba(30,20,0,0.2)), url(./css/hero.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.section{
+  margin: 5rem 0;
+}
+.section-title{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.section-title h1{
+text-transform: uppercase;
+}
+.section-title span{
+  color: aqua;
+}
+.section-center{
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+
+}
+.photo{
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.about-img, .about-info{
+  margin-bottom: 2rem;
+}
+@media screen and (min-width:992px){
+  .section-center{
+    width: 95vw;
+  }
+  .about-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .photo{
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.about-img, .about-info{
+  flex: 0 0 calc(50% - 2rem);
+  align-self: center;
+}
+
+}
+
+/* img:not(.nav-logo){
+  width: 100%;
+  display: block;
+} */
